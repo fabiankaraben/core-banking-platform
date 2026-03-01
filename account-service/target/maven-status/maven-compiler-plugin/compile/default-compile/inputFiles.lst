@@ -1,0 +1,15 @@
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/account-service/src/main/java/com/fabiankaraben/corebanking/account/domain/exception/InsufficientFundsException.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/account-service/src/main/java/com/fabiankaraben/corebanking/account/infrastructure/web/AccountController.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/account-service/src/main/java/com/fabiankaraben/corebanking/account/application/port/out/AccountRepositoryPort.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/account-service/src/main/java/com/fabiankaraben/corebanking/account/application/service/DefaultAccountUseCase.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/account-service/src/main/java/com/fabiankaraben/corebanking/account/infrastructure/persistence/AccountPersistenceAdapter.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/account-service/src/main/java/com/fabiankaraben/corebanking/account/infrastructure/messaging/TransferResultEvent.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/account-service/src/main/java/com/fabiankaraben/corebanking/account/domain/exception/AccountNotFoundException.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/account-service/src/main/java/com/fabiankaraben/corebanking/account/infrastructure/messaging/TransferRequestedEvent.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/account-service/src/main/java/com/fabiankaraben/corebanking/account/application/port/in/AccountUseCase.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/account-service/src/main/java/com/fabiankaraben/corebanking/account/AccountServiceApplication.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/account-service/src/main/java/com/fabiankaraben/corebanking/account/infrastructure/messaging/TransferEventConsumer.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/account-service/src/main/java/com/fabiankaraben/corebanking/account/domain/Account.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/account-service/src/main/java/com/fabiankaraben/corebanking/account/domain/Money.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/account-service/src/main/java/com/fabiankaraben/corebanking/account/infrastructure/persistence/SpringDataAccountRepository.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/account-service/src/main/java/com/fabiankaraben/corebanking/account/infrastructure/persistence/AccountEntity.java
