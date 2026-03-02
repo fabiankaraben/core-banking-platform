@@ -8,7 +8,6 @@ import com.fabiankaraben.corebanking.transfer.application.port.out.OutboxReposit
 import com.fabiankaraben.corebanking.transfer.application.port.out.TransferRepositoryPort;
 import com.fabiankaraben.corebanking.transfer.domain.Money;
 import com.fabiankaraben.corebanking.transfer.domain.TransferIntent;
-import com.fabiankaraben.corebanking.transfer.domain.TransferStatus;
 import com.fabiankaraben.corebanking.transfer.domain.exception.TransferNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -26,9 +25,9 @@ public class DefaultTransferUseCase implements TransferUseCase {
     private final ObjectMapper objectMapper;
 
     public DefaultTransferUseCase(TransferRepositoryPort transferRepository,
-                                  OutboxRepositoryPort outboxRepository,
-                                  IdempotencyRepositoryPort idempotencyRepository,
-                                  ObjectMapper objectMapper) {
+            OutboxRepositoryPort outboxRepository,
+            IdempotencyRepositoryPort idempotencyRepository,
+            ObjectMapper objectMapper) {
         this.transferRepository = transferRepository;
         this.outboxRepository = outboxRepository;
         this.idempotencyRepository = idempotencyRepository;
@@ -36,7 +35,8 @@ public class DefaultTransferUseCase implements TransferUseCase {
     }
 
     @Override
-    public TransferIntent initiateTransfer(String idempotencyKey, UUID sourceAccountId, UUID targetAccountId, Money amount) {
+    public TransferIntent initiateTransfer(String idempotencyKey, UUID sourceAccountId, UUID targetAccountId,
+            Money amount) {
         if (idempotencyKey != null && !idempotencyKey.isBlank()) {
             Optional<UUID> existingTransferId = idempotencyRepository.getTransferId(idempotencyKey);
             if (existingTransferId.isPresent()) {
@@ -56,8 +56,7 @@ public class DefaultTransferUseCase implements TransferUseCase {
                     transfer.getId(),
                     transfer.getSourceAccountId(),
                     transfer.getTargetAccountId(),
-                    transfer.getAmount().amount()
-            );
+                    transfer.getAmount().amount());
             String payload = objectMapper.writeValueAsString(event);
             outboxRepository.save("TransferIntent", transfer.getId(), "transfer-requested-topic", payload);
         } catch (JsonProcessingException e) {

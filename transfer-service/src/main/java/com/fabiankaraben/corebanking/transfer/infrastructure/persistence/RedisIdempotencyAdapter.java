@@ -13,7 +13,7 @@ public class RedisIdempotencyAdapter implements IdempotencyRepositoryPort {
 
     private static final String IDEMPOTENCY_KEY_PREFIX = "idempotency:transfer:";
     private static final Duration TTL = Duration.ofHours(24);
-    
+
     private final StringRedisTemplate redisTemplate;
 
     public RedisIdempotencyAdapter(StringRedisTemplate redisTemplate) {
