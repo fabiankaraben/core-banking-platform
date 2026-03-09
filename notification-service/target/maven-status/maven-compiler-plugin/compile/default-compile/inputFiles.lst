@@ -1,5 +1,0 @@
-/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/notification-service/src/main/java/com/fabiankaraben/corebanking/notification/infrastructure/messaging/NotificationConsumer.java
-/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/notification-service/src/main/java/com/fabiankaraben/corebanking/notification/NotificationServiceApplication.java
-/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/notification-service/src/main/java/com/fabiankaraben/corebanking/notification/domain/SpringDataNotificationRepository.java
-/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/notification-service/src/main/java/com/fabiankaraben/corebanking/notification/domain/NotificationEntity.java
-/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/notification-service/src/main/java/com/fabiankaraben/corebanking/notification/infrastructure/messaging/TransferResultEvent.java

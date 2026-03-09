@@ -1,5 +1,0 @@
-com/fabiankaraben/corebanking/notification/domain/SpringDataNotificationRepository.class
-com/fabiankaraben/corebanking/notification/NotificationServiceApplication.class
-com/fabiankaraben/corebanking/notification/infrastructure/messaging/TransferResultEvent.class
-com/fabiankaraben/corebanking/notification/infrastructure/messaging/NotificationConsumer.class
-com/fabiankaraben/corebanking/notification/domain/NotificationEntity.class
