@@ -1,0 +1,9 @@
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/notification-service/src/main/java/com/cbp/notification/NotificationServiceApplication.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/notification-service/src/main/java/com/cbp/notification/adapter/messaging/TransferOutcomeEventListener.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/notification-service/src/main/java/com/cbp/notification/adapter/persistence/entity/NotificationJpaEntity.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/notification-service/src/main/java/com/cbp/notification/adapter/persistence/repository/NotificationJpaRepository.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/notification-service/src/main/java/com/cbp/notification/application/NotificationService.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/notification-service/src/main/java/com/cbp/notification/config/KafkaConfig.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/notification-service/src/main/java/com/cbp/notification/domain/model/Notification.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/notification-service/src/main/java/com/cbp/notification/domain/model/NotificationStatus.java
+/Users/fabian/Documents/CodeProjects/github.com/fabiankaraben/core-banking-platform/notification-service/src/main/java/com/cbp/notification/domain/model/NotificationType.java

@@ -1,0 +1,10 @@
+com/cbp/transfer/application/service/TransferServiceTest$MarkFailedTests.class
+com/cbp/transfer/domain/model/TransferTest$FailTest.class
+com/cbp/transfer/application/service/TransferServiceTest$InitiateTransferTests.class
+com/cbp/transfer/application/service/TransferServiceTest.class
+com/cbp/transfer/domain/model/TransferTest$CreationTest.class
+com/cbp/transfer/domain/model/TransferTest.class
+com/cbp/transfer/application/service/TransferServiceTest$MarkCompletedTests.class
+com/cbp/transfer/domain/model/TransferTest$CompleteTest.class
+com/cbp/transfer/application/service/TransferServiceTest$GetAllTests.class
+com/cbp/transfer/application/service/TransferServiceTest$GetByIdTests.class

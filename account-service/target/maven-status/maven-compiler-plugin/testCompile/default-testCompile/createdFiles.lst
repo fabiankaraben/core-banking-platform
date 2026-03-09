@@ -1,0 +1,11 @@
+com/cbp/account/application/service/AccountServiceTest$DepositTests.class
+com/cbp/account/application/service/AccountServiceTest$ProcessTransferRequestTests.class
+com/cbp/account/domain/model/AccountTest$AccountCreationTest.class
+com/cbp/account/application/service/AccountServiceTest$GetAccountByIdTests.class
+com/cbp/account/application/service/AccountServiceTest.class
+com/cbp/account/application/service/AccountServiceTest$GetAllAccountsTests.class
+com/cbp/account/application/service/AccountServiceTest$CreateAccountTests.class
+com/cbp/account/domain/model/AccountTest.class
+com/cbp/account/domain/model/AccountTest$DebitTest.class
+com/cbp/account/domain/model/AccountTest$CreditTest.class
+com/cbp/account/domain/model/AccountTest$StatusTransitionTest.class

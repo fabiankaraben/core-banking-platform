@@ -1,0 +1,3 @@
+com/cbp/gateway/ApiGatewayApplication.class
+com/cbp/gateway/config/GatewayConfig.class
+com/cbp/gateway/controller/FallbackController.class
